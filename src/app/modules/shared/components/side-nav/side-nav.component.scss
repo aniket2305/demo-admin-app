@@ -1,0 +1,30 @@
+@import '~sass/variables';
+
+
+.side-nav{
+    width:$side-nav-width;
+    float: left;
+    z-index: 100000;
+    height: 100%;
+   
+}
+
+.side-nav{
+    background-color: $bg-color;
+
+    nav{
+
+        margin-top: $header-height;
+        position: relative;
+
+        li{
+            a{
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: $font-white;
+            }
+        
+        }
+    }
+}
